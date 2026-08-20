@@ -7,13 +7,13 @@ public class Persona {
         this.edad=20;
     }
 
-    public static void mostrarPersona(){
-        System.out.println("Nombre: "+this.nombre+"\n"
-                +"Edad: "+this.edad);
+    public static void mostrarPersona(Persona p){
+        System.out.println("Nombre: "+p.nombre+"\n"
+                +"Edad: "+p.edad);
     }
 
     public static void main(String[]args){
         Persona persona1=new Persona();
-        persona1.mostrarPersona();
+        Persona.mostrarPersona(persona1);
     }
 }
