@@ -1,7 +1,7 @@
 public class ClasePrueba {
     public static void main(String[]args){
         int n1=5;
-        int n2=1;
+        int n2=0;
 
         int suma=Matematicas.Suma(n1,n2);
         System.out.println("La suma es: "+suma);
